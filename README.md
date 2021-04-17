@@ -1,10 +1,9 @@
 # hcloud-k8s
 
-# unfortunately I have no time to maintain - please fork it
 
 Install a Kubernetes Cluster on Hetzner Cloud. The Playbook install a Master and Workers with Private Networking inclusive Cloud Controller Manager for Hetzner Cloud, Load Balancer and Failover IPs.
 
-Tested Versions Kubernetes v1.15.5 and v1.16.2
+Tested Versions Kubernetes v1.16.2 and v1.21.0
 
 ## Local Requirements
   - Ansible v2.9.19 (https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
