@@ -7,8 +7,6 @@ datacenter: hel1
 # Master and Worker Server Types
 master_servertype: cx21
 worker_servertype: cx31
-
-# worker_servertype: cx41-ceph
 # Count Worker Nodes
 worker_count: 2
 # Count Pool IPs for Metal Load Balancer
