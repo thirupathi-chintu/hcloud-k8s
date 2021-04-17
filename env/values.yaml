@@ -3,15 +3,16 @@ hetzner_token: XXXXxxxxxXXxxx...
 # Public SSH Keys to connect instances with ssh
 ssh_authorized_keys:
   - ssh-rsa AAAAB3XXXXXxxxx== gammpamm@example.com
-# Datacenter Name
-datacenter: fsn1
+datacenter: hel1
 # Master and Worker Server Types
-master_servertype: cx21-ceph
-worker_servertype: cx31-ceph
+master_servertype: cx21
+worker_servertype: cx31
+
+# worker_servertype: cx41-ceph
 # Count Worker Nodes
-worker_count: 3
+worker_count: 2
 # Count Pool IPs for Metal Load Balancer
-floatip_count: 4
+floatip_count: 3
 # Tested 1.15.5 and 1.16.2
-kubenetes_version: 1.16.2
+kubenetes_version: 1.21.0
 local_kube_context_path: /home/<YOUR-USER>/.kube

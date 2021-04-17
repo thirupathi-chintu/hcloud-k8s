@@ -37,7 +37,7 @@
   shell: kubectl create namespace metallb
   
 - name: Add Helm Repo
-  shell: helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+  shell: helm repo add stable https://charts.helm.sh/stable
 
 - name: Install Metal LB with Helm
   shell: helm install metallb --namespace metallb stable/metallb
